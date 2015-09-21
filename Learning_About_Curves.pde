@@ -14,7 +14,7 @@ line(350, 100, 350, 300); //Right eye
 strokeWeight(1);
 fill(0, 0, 0);
 beginShape();
-vertex(100, 350);
-vertex(500, 350);
-vertex(300, 450);
+vertex(100, 350); //top left
+vertex(500, 350); //top right
+vertex(300, 450); //bottom middle
 endShape(CLOSE);
