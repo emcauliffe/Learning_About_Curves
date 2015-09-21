@@ -2,10 +2,12 @@
 //Sept. 21 2015
 //Learning About Curves
 
+void setup90 {
 size(600, 600);
 background(255, 255, 255);
-
+}
 //Make the eyes
+void draw() {
 strokeWeight(5);
 line(250, 100, 250, 300); //Left eye
 line(350, 100, 350, 300); //Right eye
@@ -21,3 +23,4 @@ curveVertex(500, 350); //real start of curve
 curveVertex(100, 350); //real curve end
 curveVertex(75, 100); //top left "handle"
 endShape(CLOSE);
+}
