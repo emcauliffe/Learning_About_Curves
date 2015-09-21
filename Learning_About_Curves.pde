@@ -7,8 +7,6 @@ void setup() {
   size(600, 600);
   background(255, 255, 255);
 }
-
-
 //Make the eyes
 
 //Runs over and over and over
