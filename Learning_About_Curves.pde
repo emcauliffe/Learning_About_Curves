@@ -16,5 +16,8 @@ fill(0, 0, 0);
 beginShape();
 vertex(100, 350); //top left
 vertex(500, 350); //top right
-vertex(300, 450); //bottom middle
+curveVertex(525, 100); //top right "handle"
+curveVertex(500, 350); //real start of curve
+curveVertex(100, 350); //real curve end
+curveVertex(75, 100); //top left "handle"
 endShape(CLOSE);
