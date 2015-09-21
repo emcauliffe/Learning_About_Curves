@@ -3,7 +3,7 @@
 //Learning About Curves
 
 //Runs once
-void setup90 {
+void setup() {
   size(600, 600);
   background(255, 255, 255);
 }
@@ -23,9 +23,9 @@ void draw() {
   beginShape();
   vertex(100, 350); //top left
   vertex(500, 350); //top right
-  curveVertex(525, 100); //top right "handle"
+  curveVertex(525, -500); //top right "handle"
   curveVertex(500, 350); //real start of curve
   curveVertex(100, 350); //real curve end
-  curveVertex(75, 100); //top left "handle"
+  curveVertex(75, -500); //top left "handle"
   endShape(CLOSE);
 }
